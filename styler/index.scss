@@ -88,5 +88,48 @@ footer {
     background-color: lightblue;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skola {
+    max-width: 350px;
+    width: 100%;
+    min-height: 50px;
+    max-height: 200px;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    font-size: large;
+    text-align: center;
+}
+
+.jobb {
+    max-width: 350px;
+    width: 100%;
+    min-height: 50px;
+    max-height: 200px;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    font-size: large;
+    text-align: center;
+
+}
+
+.praktik {
+    max-width: 350px;
+    width: 100%;
+    min-height: 50px;
+    max-height: 200px;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    font-size: large;
+    text-align: center;
+}
+
+.titlar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: none;
 }
