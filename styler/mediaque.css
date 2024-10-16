@@ -1,0 +1,12 @@
+@media screen and (max-width: 900px) {
+  .erfarenheter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skola,
+  .jobb,
+  .praktik {
+    max-width: 60%;
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=mediaque.css.map */
