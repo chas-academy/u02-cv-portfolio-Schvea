@@ -1,6 +1,6 @@
 @use 'fonterosv';
 @use 'reset';
-@forward 'mediaque';
+@use 'mediaque';
 
 body {
     max-width: 2000px;
@@ -18,10 +18,26 @@ header {
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-    margin-bottom: 1%;
     flex-direction: column;
+    align-items: center;
 }
 
+a:link {
+    background-color: hotpink;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+.a:link:hover {
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+}
 
 main {
     max-width: 2000px;
@@ -136,4 +152,9 @@ footer {
     background-color: none;
 }
 
-
+table{
+    border-style: double;
+}
+tr, td{
+    border-style: double;
+}
