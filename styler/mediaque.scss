@@ -8,6 +8,16 @@
     .jobb,
     .praktik {
         max-width: 60%;
-        margin-bottom: 20px;
     }
 }
+
+@media screen and (max-width: 620px) {
+    .introduktion {
+        margin-top: 4%;
+    }
+    .about, .about2 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
