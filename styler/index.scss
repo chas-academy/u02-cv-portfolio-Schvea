@@ -48,7 +48,7 @@ h1 {
 }
 
 .navbar a:hover {
-    background-color: rgb(41, 41, 41);
+    background-color: $teal;
 }
 
 main {
@@ -125,6 +125,8 @@ iframe {
     align-self: center;
     width: 560px;
     height: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -197,4 +199,19 @@ td {
     border-color: white;
 }
 
-/*Lägg i mediaque scss*/
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-internal-link{
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.footer-internal-link:hover {
+    background-color: $teal; 
+    color: white; 
+}
