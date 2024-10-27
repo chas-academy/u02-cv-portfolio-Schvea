@@ -1,6 +1,7 @@
 @import 'fonterosv';
 @import 'reset';
 @import 'mediaque';
+@import 'knappar';
 
 body {
     max-width: 2000px;
@@ -30,26 +31,12 @@ header {
     margin-top: 1rem;
 }
 
-a {
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    border-style: double;
-    transition: 0.3s ease, background-color 0.3s ease;
-    margin-top: 1%;
-}
-
 h1 {
     margin: 0;
     padding: 0;
     margin-top: 1rem;
 }
 
-.navbar a:hover {
-    background-color: $teal;
-}
 
 main {
     max-width: 2000px;
@@ -104,6 +91,12 @@ h2 {
     height: auto;
 }
 
+.bild-storlek {
+    width: 100%;
+    max-width: 300px;
+    max-height: 450px;
+}
+
 footer {
     max-width: 2000px;
     width: 100%;
@@ -127,6 +120,7 @@ iframe {
     height: 350px;
     margin-left: 10px;
     margin-right: 10px;
+    border: 0;
 }
 
 
@@ -169,7 +163,7 @@ iframe {
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
-    background-color: none;
+    background-color: transparent;
 }
 
 .tidslinje {
@@ -186,10 +180,10 @@ iframe {
 }
 
 table {
-    max-width: 800px;
+    max-width: 700px;
     width: 100%;
     border-style: double;
-    background-color: none;
+    background-color: transparent;
     color: white;
 }
 
@@ -199,19 +193,8 @@ td {
     border-color: white;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
 
-}
-.footer-internal-link{
-    background-color: white;
-    color: black;
-    transition: background-color 0.3s, color 0.3s; 
-}
-
-
-.footer-internal-link:hover {
-    background-color: $teal; 
-    color: white; 
 }

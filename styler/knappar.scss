@@ -1,0 +1,25 @@
+a {
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border-style: double;
+    transition: 0.3s ease, background-color 0.3s ease;
+    margin-top: 1%;
+}
+
+.navbar a:hover {
+    background-color: $teal;
+}
+
+.footer-internal-link {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-internal-link:hover {
+    background-color: $teal;
+    color: white;
+}

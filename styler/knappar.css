@@ -1,0 +1,10 @@
+a {
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  border-style: double;
+  transition: 0.3s ease, background-color 0.3s ease;
+  margin-top: 1%;
+}/*# sourceMappingURL=knappar.css.map */

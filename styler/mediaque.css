@@ -13,7 +13,8 @@
   .introduktion {
     margin-top: 4%;
   }
-  .about, .about2 {
+  .about,
+  .about2 {
     margin-right: 0;
     margin-left: 0;
   }
